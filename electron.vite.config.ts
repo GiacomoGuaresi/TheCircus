@@ -37,7 +37,7 @@ export default defineConfig({
     }
   },
   renderer: {
-    root: resolve('.'),
+    root: resolve('src/renderer'),
     build: {
       rollupOptions: {
         input: {
@@ -49,7 +49,8 @@ export default defineConfig({
       alias: {
         '@': resolve('src'),
         '@models': resolve('src/models'),
-        '@utils': resolve('src/utils')
+        '@utils': resolve('src/utils'),
+        '/src': resolve('src')
       }
     },
     plugins: [react()]

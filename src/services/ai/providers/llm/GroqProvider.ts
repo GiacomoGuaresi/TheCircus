@@ -41,8 +41,10 @@ export class GroqProvider implements ILLMProvider {
     try {
       await this.client.models.list()
       return { available: true, provider: 'groq', latency_ms: Date.now() - start }
-    } catch {
-      return { available: false, provider: 'groq', error: 'Invalid API key or service down' }
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err)
+      logger.warn(`GroqProvider.getStatus error: ${msg}`)
+      return { available: false, provider: 'groq', error: msg }
     }
   }
 }
