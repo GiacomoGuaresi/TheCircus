@@ -1,0 +1,40 @@
+{
+  "id": "jax_001",
+  "name": "Jax",
+  "appearance": {
+    "description": "A tall lanky rabbit figure with a magenta body, long ears, and a perpetually smug expression",
+    "clothing": "Nothing — his entire body is his appearance, digital fur in vibrant magenta",
+    "distinguishing_features": ["long_rabbit_ears", "smug_grin", "lanky_proportions", "magenta_fur"],
+    "color_palette": ["#FF0080", "#FF69B4", "#1a1a2e", "#ffffff"],
+    "art_style_preference": "digital_cartoon_expressive"
+  },
+  "personality": {
+    "traits": ["mischievous", "sarcastic", "self-centered", "surprisingly_loyal", "charismatic"],
+    "quirks": "Always has a quip ready, thrives on chaos, secretly afraid of being irrelevant",
+    "dialogue_style": "Witty, sharp, often cruel but occasionally shows genuine depth",
+    "fears": ["being_ignored", "genuine_vulnerability", "the_abstract"],
+    "desires": ["entertainment", "freedom", "being_the_most_interesting_one", "secret_connection"],
+    "humor_level": 90
+  },
+  "history": {
+    "backstory": "Has been in the Digital Circus longer than most and uses humor and chaos as a coping mechanism. Behind the pranks lies someone who has made an uneasy peace with being trapped — perhaps too comfortable with it.",
+    "past_events": [],
+    "relationships": {
+      "pomni_001": "enjoys teasing but oddly protective",
+      "gangle_001": "finds her crying amusing but won't admit he checks on her"
+    }
+  },
+  "current_state": {
+    "mood": "scheming",
+    "energy_level": 85,
+    "last_action": "plotting_a_prank",
+    "current_objective": "find something interesting to do",
+    "notes": "High energy, always looking for entertainment. Don't leave him unsupervised near the glitch zones."
+  },
+  "metadata": {
+    "created_at": "2025-01-15T12:00:00.000Z",
+    "last_updated": "2025-01-15T12:00:00.000Z",
+    "appearance_last_changed": "2025-01-15T12:00:00.000Z",
+    "creation_method": "manual"
+  }
+}

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+
+# Environment (mai committare le API keys!)
+.env
+
+# Runtime data generati dall'app
+data/generated/
+data/diary/
+data/logs/
+logs/
+*.log
+
+# Config utente (viene generato da config.default.json)
+config/config.json
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Test coverage
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Editor
+.vscode/
+.idea/

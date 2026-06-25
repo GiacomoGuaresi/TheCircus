@@ -1,0 +1,35 @@
+{
+  "ai_image": {
+    "provider": "pollinations",
+    "width": 1920,
+    "height": 1080,
+    "steps": 30,
+    "guidance_scale": 7.5,
+    "negative_prompt": "text, watermark, signature, blurry, low quality, deformed, ugly, bad anatomy, duplicate, extra limbs, nsfw, nude",
+    "timeout_ms": 60000
+  },
+  "ai_llm": {
+    "provider": "groq",
+    "model": "llama-3.3-70b-versatile",
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "timeout_ms": 30000
+  },
+  "generation": {
+    "interval_hours": 1,
+    "minimum_characters_per_scenario": 1,
+    "maximum_characters_per_scenario": 3,
+    "randomness_factor": 0.4,
+    "theme_weights": {
+      "adventure": 25,
+      "mystery": 20,
+      "comedy": 20,
+      "slice_of_life": 15,
+      "romance": 10,
+      "horror": 10
+    }
+  },
+  "data_dir": "data",
+  "log_level": "info",
+  "timezone": "Europe/Rome"
+}

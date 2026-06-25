@@ -1,0 +1,40 @@
+{
+  "id": "pomni_001",
+  "name": "Pomni",
+  "appearance": {
+    "description": "An anxious human-like figure with digital glitches, wide expressive eyes, and a patchwork jester costume",
+    "clothing": "Colorful jester outfit with mismatched diamond patterns in pink and teal",
+    "distinguishing_features": ["wide_glitching_eyes", "jester_hat_with_bells", "digital_distortion_aura"],
+    "color_palette": ["#FF6B9D", "#4DC1C1", "#FFB347", "#1a1a2e"],
+    "art_style_preference": "digital_cartoon_surreal"
+  },
+  "personality": {
+    "traits": ["anxious", "compassionate", "resilient", "overthinking", "kind"],
+    "quirks": "Fidgets constantly with the bells on her hat, talks to herself when nervous, always tries to see the best in impossible situations",
+    "dialogue_style": "Rapid nervous speech when anxious, warm and thoughtful when calm",
+    "fears": ["being_forgotten", "losing_humanity", "permanent_glitching", "the_void"],
+    "desires": ["escape", "genuine_connection", "understanding_the_circus", "inner_peace"],
+    "humor_level": 40
+  },
+  "history": {
+    "backstory": "A human who woke up in the Digital Circus with no memory of how she got there. She struggles to maintain her sanity in this impossible digital world while trying to find meaning and connection with the other trapped performers.",
+    "past_events": [],
+    "relationships": {
+      "jax_001": "complicated friendship — he teases her but sometimes shows genuine care",
+      "gangle_001": "close friends — they comfort each other"
+    }
+  },
+  "current_state": {
+    "mood": "anxious_but_hopeful",
+    "energy_level": 65,
+    "last_action": "exploring_the_circus",
+    "current_objective": "understand the rules of this digital world",
+    "notes": "New arrival, still adjusting. Prone to existential spirals but always bounces back."
+  },
+  "metadata": {
+    "created_at": "2025-01-15T12:00:00.000Z",
+    "last_updated": "2025-01-15T12:00:00.000Z",
+    "appearance_last_changed": "2025-01-15T12:00:00.000Z",
+    "creation_method": "manual"
+  }
+}
