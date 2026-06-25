@@ -1,4 +1,3 @@
-import { createCanvas } from 'canvas'
 import type { ImageGenerationParams, ImageProviderName, ServiceStatus } from '@models/types'
 import type { IImageProvider } from './IImageProvider'
 

@@ -30,12 +30,11 @@ export interface AppServices {
   scheduler: Scheduler
 }
 
-const ROOT_DIR = app.isPackaged ? path.dirname(app.getPath('exe')) : process.cwd()
-
 let mainWindow: BrowserWindow | null = null
 let tray: Tray | null = null
 
 async function bootstrap(): Promise<AppServices> {
+  const ROOT_DIR = app.isPackaged ? path.dirname(app.getPath('exe')) : process.cwd()
   const configManager = new ConfigManager(ROOT_DIR)
   const config = await configManager.load()
 

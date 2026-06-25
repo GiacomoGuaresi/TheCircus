@@ -5,6 +5,17 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   main: {
     plugins: [externalizeDepsPlugin()],
+    build: {
+      rollupOptions: {
+        input: {
+          index: resolve('src/main.ts')
+        },
+        output: {
+          format: 'cjs'
+        },
+        external: ['canvas']
+      }
+    },
     resolve: {
       alias: {
         '@': resolve('src'),
@@ -16,9 +27,24 @@ export default defineConfig({
     }
   },
   preload: {
-    plugins: [externalizeDepsPlugin()]
+    plugins: [externalizeDepsPlugin()],
+    build: {
+      rollupOptions: {
+        input: {
+          index: resolve('src/preload.ts')
+        }
+      }
+    }
   },
   renderer: {
+    root: resolve('.'),
+    build: {
+      rollupOptions: {
+        input: {
+          index: resolve('src/renderer/index.html')
+        }
+      }
+    },
     resolve: {
       alias: {
         '@': resolve('src'),
